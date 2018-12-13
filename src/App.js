@@ -8,7 +8,7 @@ import Demo4 from './hooks-quick-demos/Demo4';
 import UseEffectDemo from './hooks-quick-demos/UseEffectDemo';
 import ReduxHook from './redux-hooks/ReduxHook';
 import UseReducerDemo from './useReducerDemo';
-
+import Layout from './Layout';
 import './App.css';
 
 class App extends Component {
@@ -23,7 +23,7 @@ class App extends Component {
         <UseEffectDemo /> */}
         {/* <ReduxHook /> */}
         {/* <UseReducerDemo /> */}
-        <Button type="primary">Button</Button>
+        <Layout />
       </div>      
     );
   }
