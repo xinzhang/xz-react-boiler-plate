@@ -6,6 +6,8 @@ import Demo3 from './Demo3';
 import Demo4 from './Demo4';
 import UseEffectDemo from './UseEffectDemo';
 import ReduxHook from './redux-hooks/ReduxHook';
+import UseReducerDemo from './useReducerDemo';
+
 import './App.css';
 
 class App extends Component {
@@ -18,7 +20,8 @@ class App extends Component {
         <Demo3 />
         <Demo4 />
         <UseEffectDemo /> */}
-        <ReduxHook />
+        {/* <ReduxHook /> */}
+        <UseReducerDemo />
       </div>      
     );
   }
