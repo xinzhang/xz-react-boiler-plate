@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-button {
+/* button {
   padding: 10px;
   margin: 10px;
   border-radius: 3px;
@@ -24,4 +24,4 @@ button:active {
 
 button:disabled {
   opacity: 0.5;
-}
+} */

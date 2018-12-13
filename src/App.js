@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from 'antd/lib/button';
 import Greeting from './hooks-quick-demos/Greeting';
 import Demo1 from './hooks-quick-demos/Demo1';
 import Demo2 from './hooks-quick-demos/Demo2';
@@ -21,7 +22,8 @@ class App extends Component {
         <Demo4 />
         <UseEffectDemo /> */}
         {/* <ReduxHook /> */}
-        <UseReducerDemo />
+        {/* <UseReducerDemo /> */}
+        <Button type="primary">Button</Button>
       </div>      
     );
   }
