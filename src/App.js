@@ -10,6 +10,7 @@ import ReduxHook from './redux-hooks/ReduxHook';
 import UseReducerDemo from './useReducerDemo';
 import Layout from './Layout';
 import './App.css';
+import RefComponent from './RefComponent';
 
 class App extends Component {
   render() {
@@ -23,7 +24,8 @@ class App extends Component {
         <UseEffectDemo /> */}
         {/* <ReduxHook /> */}
         {/* <UseReducerDemo /> */}
-        <Layout />
+        {/* <Layout /> */}
+        <RefComponent />
       </div>      
     );
   }
