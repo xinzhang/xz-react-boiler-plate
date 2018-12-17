@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-function Demo1() {
-  const [count, setCount] = useState(0);
+function Demo1({match}) {
+  const [count, setCount] = useState(parseInt(match.params.value));
   return (
     <StyledWrapper>
       Count: {count}

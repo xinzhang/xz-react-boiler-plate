@@ -10,22 +10,13 @@ import ReduxHook from './redux-hooks/ReduxHook';
 import UseReducerDemo from './useReducerDemo';
 import Layout from './Layout';
 import './App.css';
-import RefComponent from './RefComponent';
+import AppRouter from './AppRouter';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Greeting />
-        <Demo1 />
-        <Demo2 />
-        <Demo3 />
-        <Demo4 />
-        <UseEffectDemo /> */}
-        {/* <ReduxHook /> */}
-        {/* <UseReducerDemo /> */}
-        {/* <Layout /> */}
-        <RefComponent />
+        <AppRouter />
       </div>      
     );
   }
